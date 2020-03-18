@@ -1,0 +1,79 @@
+*{
+	color:black;
+	line-height: 20px;
+}
+#testingone{
+	background-color: red;
+}
+.smallcaps{
+	font-variant: small-caps;
+}
+.transform{
+	background-color:red;
+	transform:rotate(20deg);
+}
+a[title="Google" ],a[tittle="Facebook"]{
+	color: white;
+	background-color: yellow;
+	width:100px; height: 100px;
+}
+p a{
+	color: red;
+	text-decoration: none;
+}
+p>a{
+	color: blue;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: black; 
+}
+#hover_transition{
+	background-color: darkred;
+	width: 100px;
+	height: 100px;
+	transition: width 2s;
+
+}
+#hover_transition:hover{
+	width: 400px;
+
+}
+a[title="Google"]:visited{
+	color: black;
+	background-color: green;
+}
+a[title="Facebook"]:active{
+	color: pink;
+	font-size: 20px;
+}
+input[type="text"]:focus{
+	background: darkred;
+	color: white;
+}
+ul li{
+	text-decoration: none;
+}
+ul li:first-child{
+	color: blue;
+	list-style-image: url('2663752.svg');
+}
+ul li:last-child{
+	color: pink;
+}
+.boxmodel{
+	border: 5px solid black;
+	padding: 30px; /*4sides*/
+	/*padding: 10px 50px; /*top bottom Left Right*/
+	/*padding: 10px 20px 30px 40px; top right bottom left
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 40px;*/ margin: 0px 20px;
+}
+.nav{
+	border: 1px solid gold;
+	width: 200px; float: left;
+}
+.clear{
+	clear: both;
+}
